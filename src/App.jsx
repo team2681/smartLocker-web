@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import './App.css'
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css';
 import Authentication from './pages/Authentication';
 import LocationPrompt from "./pages/LocationPrompt";
 import OneTimeRegistration from './pages/OneTimeRegistration';

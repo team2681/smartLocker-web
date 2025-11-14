@@ -7,8 +7,8 @@ export default function BookingDetails() {
   // Sample booking data
   const booking = {
     terminalId: "T12345",
-    userName: "Anil Kumar",
-    mobileNumber: "9876543210",
+    userName: "Xyz2134",
+    mobileNumber: "9800230000",
     locker: "S2",
     totalTime: "3 hr",
     amount: 20,
@@ -101,7 +101,7 @@ export default function BookingDetails() {
             </h3>
             <p className="text-gray-600 mb-4 text-sm">
               After successful payment, keep the app open until the locker door
-              opens. If it does not, call <span className="font-semibold">7666190990</span>.
+              opens. If it does not, call <span className="font-semibold">7600220000</span>.
             </p>
             <button
               onClick={() => setShowDialog(false)}
